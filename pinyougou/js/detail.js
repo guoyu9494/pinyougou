@@ -21,8 +21,7 @@
         // (3) 我们mask 移动的距离
         var maskX = x - mask.offsetWidth / 2;
         var maskY = y - mask.offsetHeight / 2;
-        // (4) 如果x 坐标小于了0 就让他停在0 的位置
-        // 遮挡层的最大移动距离
+
         var maskMax = preview_img.offsetWidth - mask.offsetWidth;
         if (maskX <= 0) {
             maskX = 0;
